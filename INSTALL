@@ -1,0 +1,32 @@
+The objectives on PCSC-Lockin are:
+- low cost data aquisition
+- reproduce lock-in amplifier performance
+
+Data aqusition on acoustic chopping frequency using a computer sound card. 
+It simulates a lockin system with an algorithm described in
+the documentation. The sound cards have as tipically 24bit ADC, providing
+a good resolution. The two channels of the sound card are used to take the 
+signal and the chopper.
+
+A preamp with maximum 5Vpp on the output can be assembled by an operational 
+amplifier, some resistors and some capacitors. Then this preamp has to be 
+connected to the sound card.
+
+PCSC-Lockin was developed on Ubuntu. This software is simple to compile. 
+It need only two librarys, Qt for GUI and ALSA for sound card.
+
+
+
+
+On Ubuntu 11.04
+
+sudo apt-get install libqt4-dev libasound2-dev
+
+Open a terminal into the source folder (where is this README file)
+
+qmake [single.pro or multi.pro]
+
+make
+
+copy the executable into /usr/local/bin/
+

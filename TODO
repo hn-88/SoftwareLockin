@@ -1,0 +1,7 @@
+this is a running list of things to be done to lockin.
+
+todo:
+
+- replace alsa by an other lib (e.g. portaudio) to export lockin in other platforms
+
+

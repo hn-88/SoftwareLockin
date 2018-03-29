@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="card-icon.png">card-icon.png</file>
+        <file alias="sound-icon.png">sound-icon.png</file>
+        <file alias="broom-icon.svg">broom-icon.svg</file>
+        <file alias="save-icon.png">save-icon.png</file>
+        <file alias="mic-icon.png">mic-icon.png</file>
+        <file alias="chart-icon.png">chart-icon.png</file>
+        <file alias="samovar-icon.png">samovar-icon.png</file>
+    </qresource>
+</RCC>
