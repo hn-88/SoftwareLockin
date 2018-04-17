@@ -17,3 +17,11 @@ and dockoutput.cpp
 
 as per
 http://doc.qt.io/qt-5/qstring-obsolete.html
+
+Also, in order to build, on a fresh install of Ubuntu or Mint, you will need to do
+
+sudo apt-get update
+
+sudo apt-get install build-essential
+
+and then proceed to install the other required dev libraries as per the INSTALL file. 
